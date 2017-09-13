@@ -28,6 +28,30 @@
   </div>
 </nav>
 
+<form>
+
+ <div class="row">
+  <div class="col-md-4">
+  </div>
+      <div class="col-md-4">
+      
+        <label for="recherche">Votre recherche</label>
+        <input type="text" class=form-control name="recherche" placeholder="Votre recherche">
+        <label for="type">Type de logement</label>
+        <input type="text" class=form-control name="type" placeholder="type de logement">
+        <label for="dep">Département/Région</label>
+        <input type="text" class=form-control name="dep" placeholder="Département/Région">
+        <label for="ville">Ville/Code Postal</label>
+        <input type="text" class=form-control name="ville" placeholder="ville/code postal">
+        <br>
+        <button type="submit" class="btn btn-success">Validation</button>
+      </div>
+ </div>
+ 
+</form>
+
+
+
 
 
 

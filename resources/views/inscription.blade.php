@@ -42,8 +42,12 @@
 			    <input type="password" name="password" class="form-control"  id="exampleInputPassword1" placeholder="Password">
 			  </div>
 
+			  <div class="form-group">
+                <input name="id_cms_privileges" type="hidden" id="" value="2">
+              </div>
+
 	  		 
-	  		 	<button type="submit" class="btn btn-success">Submit</button>
+	  		 	<button type="submit" class="btn btn-success">Validation</button>
 	  		 
 	  		
   		</form>
